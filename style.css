@@ -1,0 +1,301 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+.header-page {
+	background-color: #121114;
+}
+
+.main-menu {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	gap: 1220px;
+}
+
+.main-menu .AT-DRIVE {
+	color: #ffffff;
+	font-size: 15px;
+	font-family: "Arial";
+	margin-top: 10px;
+}
+
+.main-menu .info {
+	margin-top: 25px;
+	color: #ffffff;
+	font-size: 15px;
+	font-family: "Arial";
+}
+
+.header-page h1 {
+	color: #ffffff;
+	font-size: 55px;
+	font-family: "Arial",sans-serif;
+	text-align: center;
+	font-weight: normal;
+}
+
+.header-page .Zakaz {
+	width: 150px;
+	height: 50px;
+	background-color: #FCA311;
+	border-radius: 50px;
+	color: #ffffff;
+	font-size: 15px;
+}
+
+.Button1 {
+	margin-top: -20px;
+	text-align: center;
+}
+
+.header-page p {
+	color: #FCA311;
+	font-size: 15px;
+	text-align: center;
+	line-height: 23px;
+}
+
+.header-page p span {
+	color: #ffffff;
+}
+
+.Image-hero {
+	margin-top: 50px;
+	text-align: center;
+	padding-bottom: 200px;
+}
+
+.Technic-description {
+	margin-top: 70px;
+	text-align: center;
+	font-weight: normal;
+	font-family: "Arial";
+	font-size: 30px;
+}
+
+.Headline-first-level {
+	text-align: center;
+	font-family: "Arial";
+	font-size: 30px;
+	margin-top: 90px;
+	font-weight: normal;
+}
+
+.list {
+	list-style-image: url('https://at-drive.ru/wp-content/themes/at_drive_com/public/img/arrow-right.svg');
+}
+
+.list li {
+	font-size: 23px;
+	font-family: "Arial";
+	line-height: 50px;
+}
+
+.images {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	float: right;
+	margin-right: 30px;
+}
+
+.container {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.Analogi div:first-child {
+	display: flex;
+	width: 50%;
+	background-color: lightgray;
+	height: 400px;
+	align-items: center;
+	justify-content: center;
+}
+
+.Analogi div:nth-child(2) {
+	display: flex;
+	width: 50%;
+	background-color: lightgray;
+	height: 400px;
+	align-items: center;
+	justify-content: center;
+}
+
+.Analogi {
+	display: flex;
+	justify-content: space-evenly;
+	gap: 20px;
+}
+
+.Analogi td {
+	border-collapse: none;
+}
+
+.Marki {
+	display: flex;
+	justify-content: space-evenly;
+	gap: 20px;
+}
+
+footer {
+	background-color: black;
+	height: 280px;
+}
+
+[alt="Logo"] {
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.footer-page-item div:first-child {
+	color: white;
+	font-size: 15px;
+	font-family: "Arial";
+	line-height: 30px;
+} 
+
+.footer-page-item div:nth-child(2) {
+	color: white;
+	font-size: 15px;
+	font-family: "Arial";
+	line-height: 30px;
+}
+
+.footer-page-item {
+	display: flex;
+	justify-content: space-evenly;
+	float: right;
+	gap: 40px;
+	margin-right: 80px;
+	margin-top: 25px;
+}
+
+.Distibjyutors {
+	margin-bottom: 90px;
+}
+
+.block1 {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.Headline-second-level {
+	font-weight: normal;
+	font-family: "Arial";
+	font-size:25px;
+}
+
+.Row {
+	height: 75px;
+}
+
+.Table0 {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+.Table0 tr td {
+	padding: 15px;
+	/*border-top: 2px dashed #e5e5e5;*/
+}
+
+
+
+.Table0 .td-style {
+	border-top: 2px solid black;
+}
+
+.Table0 .td-style-0 {
+	border-bottom: 2px solid black;
+}
+
+.footer-page {
+	height: 400px;
+	background-color: black;
+	border-bottom: 3px solid white;
+}
+
+.footer-page h1 {
+	display: flex;
+	color: white;
+	font-size: 30px;
+	font-family: "Arial";
+	justify-content: center;
+	padding-top: 50px;
+}
+
+.footer-page .Documents div {
+	color: white;
+	font-size: 15px;
+	font-family: "Arial";
+	padding-bottom: 30px;
+}
+
+.footer-page .Documents div:hover  {
+	color: #fca311;
+}
+
+.footer-page .Documents span {
+	color: #fca311;
+}
+
+.Image0 {
+	display: flex;
+	float: left;
+}
+
+.main-menu .AT-DRIVE span:hover {
+	color: #FCA311;
+}
+
+.main-menu .info span:hover {
+	color: #FCA311;
+}
+
+.Documents0 {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.Documents1 {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+[placeholder="Комментарий"] {
+	height: 600px;
+}
+
+.Documents0 div a {
+	color:white;
+	text-decoration: none;
+}
+
+.Documents0 div a:hover {
+	color:#FCA311;
+	text-decoration: none;
+}
+
+.Documents1 div a {
+	color:white;
+	text-decoration: none;
+}
+
+.Documents1 div a:hover {
+	color:#FCA311;
+	text-decoration: none;
+}
+
+.AT-DRIVE a {
+	color:white;
+	text-decoration: none;
+}
+
+.AT-DRIVE a:hover {
+	color:#FCA311;
+	text-decoration: none;
+}

@@ -1,0 +1,51 @@
+fieldset {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 600px;
+	border-radius: 10px;
+}
+
+form {
+	display: flex;
+	justify-content: center;
+	font-family: "Arial";
+}
+
+.Data {
+	width: 500px;
+	height: 40px;
+	border-radius: 50px;
+}
+
+[placeholder] {
+	font-size: 15px;
+	padding-left: 25px;
+}
+
+.Button1 {
+	width: 200px;
+	height: 50px;
+	background-color: #FCA311;
+	border-radius: 50px;
+	border: 1px solid #FCA311;
+	color: #ffffff;
+	font-size: 15px;
+}
+
+h1 {
+	color: #FCA311;
+	font-weight: normal;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 20px;
+	color: #2f2e36;
+}
+
+.paragraph {
+	color: #2f2e36;
+	font-size: 15px;
+}
+
